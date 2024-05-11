@@ -1,0 +1,19 @@
+//CODE: - 
+
+#define redled 13 // red led will connect to pin 13
+#define yellowled 12 // yellow led will connect to pin 12
+#define greenled 11 // green led will connect to pin 11
+
+void setup() {
+pinMode(redled,OUTPUT); }
+void loop() {
+digitalWrite(redled,HIGH); // turn on led
+delay(1000); //time in millisec 1000=1sec
+digitalWrite(redled,LOW); //turn off led
+  digitalWrite(yellowled,HIGH); // turn on led
+delay(1000); //time in millisec 1000=1sec
+digitalWrite(yellowled,LOW); //turn off led
+ digitalWrite(greenled,HIGH); // turn on led
+delay(1000); //time in millisec 1000=1sec
+digitalWrite(greenled,LOW); //turn off led
+ }
